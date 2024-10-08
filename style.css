@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #2e8b57; /* Green table-like background */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.player, .dealer {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 45%;
+}
+
+#player-cards, #dealer-cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.controls button {
+    background: #555;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
