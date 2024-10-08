@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Blackjack Simulator</h1>
+        <div id="game">
+            <div class="player" id="player-hand">
+                <h2>Player's Hand</h2>
+                <div id="player-cards"></div>
+                <div id="player-score"></div>
+            </div>
+            <div class="dealer" id="dealer-hand">
+                <h2>Dealer's Hand</h2>
+                <div id="dealer-cards"></div>
+                <div id="dealer-score"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="deal-button">Deal</button>
+            <button id="hit-button" disabled>Hit</button>
+            <button id="stand-button" disabled>Stand</button>
+            <button id="double-down-button" disabled>Double Down</button>
+            <button id="split-button" disabled>Split</button>
+        </div>
+        
+        <div id="message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
